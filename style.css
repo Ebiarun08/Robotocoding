@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    font-size: 12px;
+    align-items: center;
+    padding-left: 10px;
+}
+.button .btn{
+    font-size: 10px;
+}
+.herosection{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    height: 60vh;
+}
+.herosection h1{
+    border-left: 3px solid #0094b9;
+    padding: 0 0 0 15px;
+}
+.content{
+    padding: 80px 120px 110px 100px;
+}
+.card{
+    font-size: 12px;
+    border-radius: 10px;
+}
+.card-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-head i{
+    margin: 20px 10px;
+    font-size: 24px;
+}
+.card-head h5{
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.card i{
+    background-color: #cbd6d84b;
+    border: 10px solid #cbd6d84b;
+    border-radius: 50%;
+}
+.card-content li {
+     list-style: none;
+     font-size: 12px;
+     margin-bottom: 15px;
+     font-weight: 400;
+     
+    
+}
+.card-content i{
+    margin-left: 8px;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.whyus-content{
+    background-image: url(./images/digital-maker-courses.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 60px;
+}
+.childcode{
+    background-color: #172b4d;
+}
+.card1{
+    border: 3px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.card1 h6{
+    background-color:#fff ;
+    color:#32325d;
+    padding: 10px;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.content-items2 li{
+    list-style: none;
+    align-items: center;
+
+}
+.content-items2 a{
+    text-decoration: none;
+    color: #0094b9;
+}
+.content-items1 i{
+    color: #bec8ca;
+    padding-right: 10px;
+
+}
+.content-items1 a{
+    color: #0094b9;
+}
+.touch i{
+    font-size: 30px;
+    padding: 10px 0 0 20px;
+}
+.whatsapp{
+    padding-top: 40px;
+}
+.whatsapp i{
+    font-size: 30px;
+    padding: 10px 20px 0 20px;
+}
+
+
